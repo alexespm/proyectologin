@@ -13,7 +13,7 @@ $rol = $_POST["rol"];
 	$pass2="mtro";
 	$pass3="alum";
 
-if($nombre=="" && $password=="" && $rol=="")
+if($nombre=="" || $password=="" || $rol=="" || $nombre!=$usuario1 || $nombre!=$usuario2 || $nombre!=$usuario3)
 { 
  	header("Location: http://localhost:8888/proyectologin/login.php");
 }
