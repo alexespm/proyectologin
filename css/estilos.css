@@ -12,7 +12,6 @@ body{
 }
 #contenedor{
 	background-color: white;
-	width: 500px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -22,9 +21,15 @@ body{
 	padding: 15px;
 }
 #imagen img {
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
     }
 #formulario{
 	padding: 20px;
+}
+h1{
+	text-align: center;
+}
+button{
+	text-align:center;
 }
