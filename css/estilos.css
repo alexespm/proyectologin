@@ -23,13 +23,20 @@ body{
 #imagen img {
         width: 250px;
         height: 250px;
-    }
+}
 #formulario{
+	flex direction: column;
 	padding: 20px;
 }
 h1{
 	text-align: center;
 }
-button{
-	
+input {
+	border-radius: 60px;   
+}
+select{
+	border-radius: 60px;
+}
+#boton{
+	text-align: center;
 }
