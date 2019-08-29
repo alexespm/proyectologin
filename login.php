@@ -11,7 +11,7 @@
 <body>
 	<div id="contenedor">	
 		<div id="imagen">
-			<img src="https://icon-library.net/images/user-icon/user-icon-8.jpg">
+			<img src="https://cdn.icon-icons.com/icons2/1378/PNG/512/avatardefault_92824.png">
 		</div>
 		<div id="formulario">
 			<form action="controlar.php" method="post" >
@@ -30,17 +30,17 @@
                 </div>
 			    <input type="password" name="password" class="form-control" placeholder="Ingresa Password" required="True">
 			  </div>
-			  <div class="form-group input-group">
-			    <label class="form-check-label" for="exampleCheck1">Rol</label>
-			    <select name="rol" required="True">
-					<option value=""></option>
+			  <div id="rol" class="form-group input-group">
+			    <select name="rol" class="form-control" required="True">
+					<option value="Selecciona rol">Selecciona Rol</option>
 					<option value="Administrador">Administrador</option>
 					<option value="Maestro">Maestro</option>
 					<option value="Alumno">Alumno</option>
 				</select>
 			  </div>
+
 			  <div id="boton">
-			  	<button type="submit" class="btn btn-primary">Submit</button>
+			  	<button type="submit" class="btn btn-primary">Ingresar</button>
 			  </div>
 			  
 			</form>

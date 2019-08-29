@@ -15,14 +15,15 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	border-radius: 20px;
 }
 
 #imagen {
 	padding: 15px;
 }
 #imagen img {
-        width: 250px;
-        height: 250px;
+        width: 350px;
+        height: 350px;
 }
 #formulario{
 	flex direction: column;
@@ -30,6 +31,7 @@ body{
 }
 h1{
 	text-align: center;
+	color: #ACE1FC;
 }
 input {
 	border-radius: 60px;   
@@ -40,3 +42,4 @@ select{
 #boton{
 	text-align: center;
 }
+

@@ -13,22 +13,22 @@ $rol = $_POST["rol"];
 	$pass2="mtro";
 	$pass3="alum";
 
-if($nombre=="" || $password=="" || $rol=="" || $nombre!=$usuario1 || $nombre!=$usuario2 || $nombre!=$usuario3)
+if($nombre=="" || $password=="" || $rol=="Selecciona Rol" || $nombre!=$usuario1 || $nombre!=$usuario2 || $nombre!=$usuario3)
 { 
- 	header("Location: http://localhost:8888/proyectologin/login.php");
+ 	header("Location: http://localhost:81/proyectologin/login.php");
 }
 
 if($rol=="Administrador" && $nombre==$usuario1 && $password==$pass1)
 {
- 	header("Location: http://localhost:8888/proyectologin/ingresoadm.php");
+ 	header("Location: http://localhost:81//proyectologin/ingresoadm.php");
 }
 if($rol=="Maestro" && $nombre==$usuario2 && $password==$pass2)
 {
- 	header("Location: http://localhost:8888/proyectologin/ingresomtro.php");
+ 	header("Location: http://localhost:81/proyectologin/ingresomtro.php");
 }
 if($rol=="Alumno" && $nombre==$usuario3 && $password==$pass3)
 {
- 	header("Location: http://localhost:8888/proyectologin/ingresoalum.php");
+ 	header("Location: http://localhost:81/proyectologin/ingresoalum.php");
 }
 
 ?>
