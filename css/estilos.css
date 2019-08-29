@@ -22,8 +22,8 @@ body{
 	padding: 15px;
 }
 #imagen img {
-        width: 350px;
-        height: 350px;
+        width: 250px;
+        height: 250px;
 }
 #formulario{
 	flex direction: column;
